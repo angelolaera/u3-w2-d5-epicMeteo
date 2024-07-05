@@ -1,0 +1,17 @@
+body {
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../src/assets/sfondo.jpg") no-repeat center/cover;
+  text-align: center;
+  color: white;
+}
+
+.search::placeholder {
+  color: white;
+}
